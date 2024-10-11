@@ -1,0 +1,15 @@
+.genius{
+	width:100px; height: 100px;
+	display: grid;
+	grid-template: "genius-green genius-red "
+					"genius-yellow genius-blue";
+}
+.genius-green{background-color:green;width:100px; height: 100px; grid-area:"genius-green"; border-top-left-radius: 100px;}
+.genius-red{background-color:red;width:100px; height: 100px; grid-area:"genius-red"; border-top-right-radius: 100px;}
+.genius-yellow{background-color:yellow;width:100px; height: 100px; grid-area:"genius-yellow"; border-bottom-left-radius: 100px}
+.genius-blue{background-color:blue;width:100px; height: 100px; grid-area:"genius-blue"; border-bottom-right-radius: 100px}
+
+.genius-green:hover{background-color:darkgreen}
+.genius-red:hover{background-color:brown}
+.genius-yellow:hover{background-color:gold}
+.genius-blue:hover{background-color:darkblue}
