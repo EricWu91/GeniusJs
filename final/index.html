@@ -6,15 +6,20 @@
 		<link rel="stylesheet" href="index.css"/>
 	</head>
 	<body>
-	
-		<div class="genius">
-			<div class="genius-green"></div>
-			<div class="genius-red"></div>
-			<div class="genius-yellow"></div>
-			<div class="genius-blue"></div>
-			
+		<div class="container">
+			<div class="genius">
+				<div onmousedown="javascript:brilharBotao('green');" onmouseup="javascript:apagarBotao('green');" onclick="javascript:clicarCor('green');" class="genius-green"></div>
+				<div onmousedown="javascript:brilharBotao('red');" onmouseup="javascript:apagarBotao('red');" onclick="javascript:clicarCor('red');" class="genius-red"></div>
+				<div onmousedown="javascript:brilharBotao('yellow');" onmouseup="javascript:apagarBotao('yellow');" onclick="javascript:clicarCor('yellow');" class="genius-yellow"></div>
+				<div onmousedown="javascript:brilharBotao('blue');" onmouseup="javascript:apagarBotao('blue');" onclick="javascript:clicarCor('blue');" class="genius-blue"></div>			
+			</div>
+			<div class="painelBotoes">
+				<button onclick="javascript:iniciarRodada()">Iniciar Rodada</button>
+				<button onclick="javascript:avancarRodada()">Assumir jogo ganho; Avançar rodada</button>
+				<button onclick="javascript:piscarBotoesGenius()">Piscar os botões</button>
+				<button onclick="javascript:mostrarRespostas()">Mostrar as Respostas</button>
+				<div id="mensagem">Olá! Inicia a rodada quando quiser</div>	
+			</div>
 		</div>
-		</div>
-		
 	</body>
 </html>

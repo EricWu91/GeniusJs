@@ -1,15 +1,29 @@
 .genius{
-	width:100px; height: 100px;
+	width:400px; height: 400px;
 	display: grid;
+	gap: 0.5rem;
 	grid-template: "genius-green genius-red "
 					"genius-yellow genius-blue";
 }
-.genius-green{background-color:green;width:100px; height: 100px; grid-area:"genius-green"; border-top-left-radius: 100px;}
-.genius-red{background-color:red;width:100px; height: 100px; grid-area:"genius-red"; border-top-right-radius: 100px;}
-.genius-yellow{background-color:yellow;width:100px; height: 100px; grid-area:"genius-yellow"; border-bottom-left-radius: 100px}
-.genius-blue{background-color:blue;width:100px; height: 100px; grid-area:"genius-blue"; border-bottom-right-radius: 100px}
+.genius-green{background-color:green;width:400px; height: 400px; grid-area:"genius-green"; border-top-left-radius: 400px}
+.genius-red{background-color:red;width:400px; height: 400px; grid-area:"genius-red"; border-top-right-radius: 400px;}
+.genius-yellow{background-color:gold;width:400px; height: 400px; grid-area:"genius-yellow"; border-bottom-left-radius: 400px}
+.genius-blue{background-color:blue;width:400px; height: 400px; grid-area:"genius-blue"; border-bottom-right-radius: 400px}
+
+.genius-green.glowing{background-color:rgb(178, 255, 178) !important;}
+.genius-red.glowing{background-color:rgb(255, 178, 178) !important;}
+.genius-yellow.glowing{background-color:yellow !important;}
+.genius-blue.glowing{background-color:rgb(178, 178, 255) !important;}
+
 
 .genius-green:hover{background-color:darkgreen}
 .genius-red:hover{background-color:brown}
-.genius-yellow:hover{background-color:gold}
+.genius-yellow:hover{background-color:rgb(156, 140, 48)}
 .genius-blue:hover{background-color:darkblue}
+
+.container{
+	display: grid;
+	width: 100%;
+	height: 100%;
+	grid-template: "genius painelBotoes";
+}
