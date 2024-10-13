@@ -15,11 +15,11 @@
 .genius-yellow.glowing{background-color:yellow !important;}
 .genius-blue.glowing{background-color:rgb(178, 178, 255) !important;}
 
-
+/* 
 .genius-green:hover{background-color:darkgreen}
 .genius-red:hover{background-color:brown}
 .genius-yellow:hover{background-color:rgb(156, 140, 48)}
-.genius-blue:hover{background-color:darkblue}
+.genius-blue:hover{background-color:darkblue} */
 
 .container{
 	display: grid;
