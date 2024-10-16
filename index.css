@@ -1,9 +1,11 @@
 .borda-4{
-	background-color: blue
-	
+	background-color: blue;
+	color:white;
+	font-size: 20px;
 }
 .borda-3{
-	background-color: yellow
+	background-color: yellow;
+	color:red;
 	
 }
 .borda-2{

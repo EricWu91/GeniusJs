@@ -5,10 +5,10 @@
 	grid-template: "genius-green genius-red "
 					"genius-yellow genius-blue";
 }
-.genius-green{background-color:green;width:400px; height: 400px; grid-area:"genius-green"; border-top-left-radius: 400px}
-.genius-red{background-color:red;width:400px; height: 400px; grid-area:"genius-red"; border-top-right-radius: 400px;}
-.genius-yellow{background-color:gold;width:400px; height: 400px; grid-area:"genius-yellow"; border-bottom-left-radius: 400px}
-.genius-blue{background-color:blue;width:400px; height: 400px; grid-area:"genius-blue"; border-bottom-right-radius: 400px}
+.genius-green{background-color:green;width:400px; height: 400px; grid-area:"genius-green"; border-top-left-radius: 100px}
+.genius-red{background-color:red;width:400px; height: 400px; grid-area:"genius-red"; border-top-right-radius: 100px;}
+.genius-yellow{background-color:gold;width:400px; height: 400px; grid-area:"genius-yellow"; border-bottom-left-radius: 100px}
+.genius-blue{background-color:blue;width:400px; height: 400px; grid-area:"genius-blue"; border-bottom-right-radius: 100px }
 
 .genius-green.glowing{background-color:rgb(178, 255, 178) !important;}
 .genius-red.glowing{background-color:rgb(255, 178, 178) !important;}
